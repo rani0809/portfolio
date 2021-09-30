@@ -1,10 +1,8 @@
-# 0xFolio
+# Portfolio
 
 0xFolio is a free-to-use portfolio HTML template for developers. It contains very simple, responsive and optmized code. Code is sum of several components which can be reused in any project very easily.
 
 **Live preview:** https://0xali.com/0xfolio
-
-![0xFolio preview](https://i.imgur.com/CQFoEmG.png)
 
 ### Features
 
@@ -56,18 +54,9 @@ Now let's build all the Sass files to CSS by this useful `build` npm script
 
 ## Authors
 
-[Ali Raza](https://0xali.com) (me) **🙃**
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Find Me Online
 
-Feel free to contact me for any kind of help or information. Let's get connected! :)
-
-- [Website](https://0xali.com)
-- [Github](https://github.com/0xaliraza)
-- [Twitter](https://twitter.com/0xaliraza)
-- [Medium](https://medium.com/@0xaliraza)
-- [Linkedin](https://www.linkedin.com/in/ali-raza-937339159/)
