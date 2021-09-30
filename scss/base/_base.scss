@@ -1,0 +1,23 @@
+
+html {
+    scroll-behavior: smooth;
+
+}
+body {
+    color: $color-text-black;
+    background-color: $body-bg;
+}
+
+a {
+    cursor: pointer;
+    @include hover {
+        text-decoration: none;
+    }
+    
+}
+
+button {
+    &:focus {
+        outline: none;
+    }
+}

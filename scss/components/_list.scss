@@ -1,0 +1,18 @@
+.list {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	&__item {
+		padding: pxToRem(6);
+	}
+
+	&__icon {
+		fill: currentColor;
+		width: pxToRem(16);
+		height: pxToRem(16);
+	}
+
+}

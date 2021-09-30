@@ -1,0 +1,80 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer {
+	padding-top: pxToRem(70);
+	background-image: linear-gradient(
+			to right,
+			rgba($color-black, 0.5),
+			rgba($color-black, 0.5)
+		),
+		asset($base-url, 'img/bg/', 'footer-bg-sm.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: auto;
+
+	@media (min-resolution: 192dpi) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.5),
+				rgba($color-black, 0.5)
+			),
+			asset($base-url, 'img/bg/', 'footer-bg-md.jpg');
+	}
+
+	// Above 640px
+	@media only screen and (min-width: 40em) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.5),
+				rgba($color-black, 0.5)
+			),
+			asset($base-url, 'img/bg/', 'footer-bg-md.jpg');
+	}
+
+	// Above 1920px
+	@media only screen and (min-width: 120em) {
+		background-image: linear-gradient(
+				to right,
+				rgba($color-black, 0.5),
+				rgba($color-black, 0.5)
+			),
+			asset($base-url, 'img/bg/', 'footer-bg-lg.jpg');
+	}
+
+	&__social-heading {
+		text-transform: uppercase;
+		color: $color-text-white;
+	}
+
+	&__nav {
+		padding: pxToRem(10) 0;
+		border-top: 1px solid $color-grey-dark-4;
+		a.nav-link {
+			padding: pxToRem(10) pxToRem(16);
+			border-bottom: 1px solid transparent;
+			color: $color-text-white;
+			text-transform: uppercase;
+			@include hover-focus-active {
+				color: $color-text-white;
+				text-decoration: underline;
+			}
+			&.active {
+				color: $color-text-white;
+			}
+		}
+	}
+
+	&__credits {
+		border-top: 1px solid $color-grey-dark-4;
+
+		a {
+			color: $color-text-white;
+			border-bottom: 1px solid $color-text-white;
+		}
+		margin: 0;
+		padding: pxToRem(14) 0;
+		color: $color-text-white;
+	}
+}

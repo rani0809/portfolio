@@ -1,0 +1,35 @@
+.project {
+	display: block;
+	overflow: hidden;
+	border: 1px solid $color-grey-light-3;
+	border-bottom-left-radius: pxToRem(4px);
+	border-bottom-right-radius: pxToRem(4px);
+	box-shadow: 0 pxToRem(2) pxToRem(4) rgba(0, 0, 0, 0.075);
+	transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out, transform .2s ease-in-out;
+	max-width: pxToRem(380);
+	margin: 0 auto;
+
+	@include hover-focus-active {
+		box-shadow: 0 pxToRem(4) pxToRem(8) rgba(0, 0, 0, 0.09);
+		transform: translateY(pxToRem(-4));
+		border-color: $color-grey-light-4;
+	}
+
+	&__img-box {
+		cursor: pointer;
+		background-color: #000;
+		overflow: hidden;
+	}
+	&__img {
+	}
+
+	&__content-box {
+		padding: pxToRem(16);
+	}
+	&__details {
+		font-size: pxToRem(17);
+	}
+	&__cta-box {
+		margin: pxToRem(16) 0 pxToRem(8);
+	}
+}
