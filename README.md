@@ -42,7 +42,7 @@ Now let's build all the Sass files to CSS by this useful `build` npm script
 
     npm run build
 
-![Results](https://i.imgur.com/DRdGnjF.png)
+
 
 ## CSS Frameworks Used
 
