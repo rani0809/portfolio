@@ -1,6 +1,5 @@
 # Portfolio
 
-0xFolio is a free-to-use portfolio HTML template for developers. It contains very simple, responsive and optmized code. Code is sum of several components which can be reused in any project very easily.
 
 **Live preview:** https://0xali.com/0xfolio
 
@@ -11,10 +10,8 @@
 - Responsive images
 - Clean and readable code
 - Usable Sass components
-- Based on Sass recommended [architecture](https://sass-guidelin.es/#architecture) (7-1 pattern)
 - SVG icons
-  **Note:** I recommend using [Befunky](https://www.befunky.com/create/) for manually optimizing images (you can do it in your code if you want). Check `/img` dir to get an idea about image resolutions I used.
-
+ 
 ## Getting Started
 
 These instructions will get you a copy of this project on your local machine.
