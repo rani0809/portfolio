@@ -1,8 +1,5 @@
 # Portfolio
 
-
-**Live preview:** https://0xali.com/0xfolio
-
 ### Features
 
 - Completely responsive design
